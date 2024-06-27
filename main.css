@@ -150,7 +150,7 @@ header{
 .item .img_slider{
   width: 1100px;
   height: 500px;
-  object-fit: fill;
+  object-fit:calc(100% - 95% );
 }
 .list{
     position: absolute;
