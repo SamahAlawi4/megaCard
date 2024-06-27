@@ -21,7 +21,9 @@ body{
     background-image: linear-gradient(to bottom right, #1B1A55, #0a0a0a);
     height: 2200px;
 }
-
+a{
+  list-style: none;
+}
 
 .bubbles{
     position: relative;
@@ -145,6 +147,11 @@ header{
     
 
 }
+.item .img_slider{
+  width: 1100px;
+  height: 500px;
+  object-fit: fill;
+}
 .list{
     position: absolute;
     top:0;
@@ -154,12 +161,7 @@ header{
     width: max-content;
     transition: 1s;
 }
-.list img{
-    width: 1500px;
-    height:500px;
-    object-fit: cover;
-    opacity: 0.2px;
-}
+
 .button-s{
     position: absolute;
     top:45%;
@@ -196,7 +198,7 @@ header{
     list-style: none;
     width: 10px;
     height: 10px;
-    background-color: #08fb10;
+    background-color: #969c96;
     margin: 20px;
     border-radius: 20px;
 
@@ -355,28 +357,29 @@ header{
 /*products*/
 
 /*paymant-way*/
-.paymant-way{
+.paymant-way a{
   display: inline-flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
   color:#309df0;
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
   margin: 20px;
-  padding: 8px;
+  padding: 5px;
+  gap:8px;
+  list-style-type: none;
   
-  
+
 }
-.paymant-way .p_img {
-  display: inline-flex;
-   align-items: center;
-  gap:20px;
+.paymant-way .fa-xl{
   justify-content: center;
-  
-}
-.paymant-way .p_img li{
+  margin: 20px;
+  padding: 5px;
+  gap:8px;
   list-style: none;
+  left:400px;
 }
+
 
 /*paymant-way*/
 
